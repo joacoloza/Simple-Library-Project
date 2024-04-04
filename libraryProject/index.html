@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styleCss.css">
+</head>
+<body>
+  <dialog class="dialog" id="dialog" autofocus>
+    <form class="form" id="form">
+      <div class="formDiv">
+        <p id="text">Add New Book</p>
+        <input type="text" name="title" id="addTitle" placeholder="Add Title" required>
+        <input type="text" name="author" id="addAuthor" placeholder="Add author" required>
+        <input type="number" name="pages" id="addPages" placeholder="How Many Pages" required>
+        <div class="wrapper" id="readedWrapper">
+          <label for="readed"> Already Read?</label>
+          <input  type="checkbox" name="readed" id="readed">
+        </div>
+    </div>
+      <button type="submit" id="close">Add Book</button>
+    </form>  
+  </dialog>
+  <div class="header"><h1>add a book</h1></div>
+  <dashboard class="dashboard" id="bookShowCase">
+    <button id="addBtn">Add Book</button>
+    <div class="bookShelf" id="bookShelf">
+    </div>
+  </dashboard>
+  <script src="D:\Usuario\Desktop\useForPractice\practice.js"></script> 
+</body>
+</html>
